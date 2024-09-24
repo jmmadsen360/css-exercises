@@ -24,3 +24,25 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.h-left-links{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 24px;
+  margin:12px;
+}
+
+.h-right-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:24px;
+    margin:12px;
+}
